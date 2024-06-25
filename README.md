@@ -33,4 +33,4 @@ _\* di atas adalah os yang saya test, selebihnya bisa di test sendiri._
 
 Copyright (C) 2023 - 2024, Foxstore, @foxstore_id.
 
-- Created by [ WANNFYY ](https://github.com/wndrzzka)
+- Recode by [ WANNFYY ](https://github.com/wndrzzka)
