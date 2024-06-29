@@ -19,7 +19,6 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e ""
   echo -e "script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
-  echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 :"
   echo -e "0852-1011-9982"
