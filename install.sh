@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e"https://github.com/nanahyper/theme/blob/main/C21.zip")
+        THEME_URL=$(echo -e "https://github.com/nanahyper/theme/blob/main/C21.zip")
         break
         ;;
       x)
@@ -149,11 +149,9 @@ cd /var/www/pterodactyl && rm -r nebula.blueprint
   echo -e "${GREEN}[+]                   INSTALL SUCCESS               [+]${NC}"
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e ""
-  sleep 5
-else
-  echo ""
-  echo "Pilihan tidak valid. silahkan pilih 1/2/3/4."
-fi
+  sleep 2
+  clear
+  return
 }
 
 
