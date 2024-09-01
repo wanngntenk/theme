@@ -110,7 +110,7 @@ if [ -e /root/pterodactyl ]; then
   wget -q "$THEME_URL"
   sudo unzip -o "$(basename "$THEME_URL")"
   
-  elif [ "$SELECT_THEME" -eq 1 ]; then
+  if [ "$SELECT_THEME" -eq 1 ]; then
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                  INSTALLASI THEMA               [+]${NC}"
