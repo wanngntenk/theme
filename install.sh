@@ -152,6 +152,7 @@ cd /var/www/pterodactyl && rm -r nebula.blueprint
   sleep 2
   clear
   return
+fi
 }
 
 
