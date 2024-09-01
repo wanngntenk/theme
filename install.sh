@@ -107,7 +107,7 @@ install_theme() {
         break
         ;; 
       4)
-        THEME_URL=$(echo -e "https://github.com/nanahyper/theme/blob/main/C21.zip")
+        THEME_URL=$(echo -e "https://github.com/nanahyper/theme/raw/main/C21.zip")
         break
         ;; 
       x)
