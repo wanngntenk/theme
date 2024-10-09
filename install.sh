@@ -107,7 +107,7 @@ install_theme() {
         break
         ;; 
       4)
-        THEME_URL=$(echo -e "https://github.com/nanahyper/theme/raw/main/nebulaptero.zip")
+        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/nebulaptero.zip")
         break
         ;; 
       x)
