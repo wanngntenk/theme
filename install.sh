@@ -91,7 +91,7 @@ install_theme() {
     echo "3. enigma"
     echo "4. nebula"
     echo "x. kembali"
-    echo -e "masukan pilihan (1/2/3/x) :"
+    echo -e "masukan pilihan (1/2/3/4/x) :"
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
@@ -267,7 +267,7 @@ cd /var/www/pterodactyl && rm -r nebula.blueprint
   sleep 5
 else
   echo ""
-  echo "Pilihan tidak valid. silahkan pilih 1/2/3."
+  echo "Pilihan tidak valid. silahkan pilih 1/2/3/4."
 fi
 }
 
