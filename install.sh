@@ -95,15 +95,15 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/stellar.zip"
+        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/stellar.zip")
         break
         ;;
       2)
-        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/billing.zip"
+        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/billing.zip")
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/enigma.zip"
+        THEME_URL=$(echo -e "https://github.com/nanahyper/filethema/raw/main/enigma.zip")
         break
         ;; 
       4)
